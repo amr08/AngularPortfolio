@@ -105,7 +105,7 @@ body {
   width: 96%;
   position: absolute;
   z-index: 1;
-  background-color: rgba(0,134,139, .9);
+  background-color: rgba(10,10,10, .8);
 /*  rgba(0, 199, 140,.9);*/
   -webkit-animation: fadein .3s; 
        -moz-animation: fadein .3s; 
@@ -123,7 +123,7 @@ body {
 }
 
 .overlayPic a:hover {
-  color: #303030;
+  color: teal;
   text-decoration: none;
   padding: 50px;
 }
@@ -200,7 +200,24 @@ padding-top: 20%;
   height: 600px;
   width: 100%;
   padding-top: 2%;
-  /*background-color: #1e1e1e;*/
+}
+
+video#bgvid { 
+/*    position: fixed;*/
+position: absolute;
+    top: 300px;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -200;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url("../images/beach.jpg") no-repeat;
+    background-size: cover; 
 }
 
 .bottom-wrapper {
@@ -248,7 +265,7 @@ textarea {
   border: 1px solid grey;
   padding: 20px;
   border-radius: 20px;
-    background: rgba(10,10,10,.9);
+    background: rgba(10,10,10,.8);
     font-weight: bold;
 
    
@@ -331,6 +348,7 @@ article img {
 }
 
 .navbar {
+  z-index: 10;
   background-color: #131313;
   font-size: 18px;
   padding-top: 20px;
@@ -388,7 +406,7 @@ article img {
 /* Custom page footer */
 .footer {
   padding-top: 50px;
-/*  color: #777;*/
+  z-index: 11;
   padding-bottom: 30px;
   font-family: 'Open Sans', sans-serif;
   border-top: 1px solid grey;

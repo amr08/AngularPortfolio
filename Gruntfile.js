@@ -8,6 +8,7 @@
 // 'test/spec/**/*.js'
 
 module.exports = function (grunt) {
+   var dotenv = require("dotenv").config();
 
 
 
@@ -27,7 +28,9 @@ module.exports = function (grunt) {
     dist: 'dist'
   };
 
- var firebase = require("firebase");
+
+  var firebase = require("firebase");
+
 
   // Define the configuration for all the tasks
   grunt.initConfig({
