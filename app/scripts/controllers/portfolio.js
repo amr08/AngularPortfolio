@@ -54,7 +54,7 @@ angular.module('newappApp')
 	  	},  { 
 
 	  		project: "Travel Trivia",
-	  	  	image: "../../images/beach.jpg",
+	  	  	image: "../../images/Beautiful-Beach-Wallpaper1.jpg",
 	  	  	linksite: "http://arportfolio.herokuapp.com/TravelTrivia/index.html",
 	  	  	github: "https://github.com/amr08/TriviaGame",
 	  	  	tech: "jQuery, JavaScript, HTML5/CSS3"

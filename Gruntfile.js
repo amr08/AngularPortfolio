@@ -11,7 +11,7 @@ module.exports = function (grunt) {
   
 
 
-
+var firebase = require("firebase");
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
@@ -27,7 +27,7 @@ module.exports = function (grunt) {
     app: require('./bower.json').appPath || 'app',
     dist: 'dist'
   };
- var firebase = require("firebase");
+
 
 
   // Define the configuration for all the tasks
@@ -75,7 +75,7 @@ module.exports = function (grunt) {
     // The actual grunt server settings
     connect: {
       options: {
-        port: 9000,
+        port: 8000,
         // Change this to '0.0.0.0' to access the server from outside.
         hostname: 'localhost',
         livereload: 35729
