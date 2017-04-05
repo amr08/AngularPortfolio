@@ -9,7 +9,7 @@ angular.module('newappApp')
 			var name = $("#name").val().trim();
 			var email = $("#inputEmail").val().trim();
 			var message = $("#textArea").val().trim();
-
+			
 			var newInquiry = {
 				Contact: name,
 				email: email,
@@ -19,7 +19,6 @@ angular.module('newappApp')
 			database.ref("/Inquiry").push(newInquiry);
 
 			$("#thanks").append("<h4> Thanks for your message - I will be in contact with you soon!</h4>")
-
 			$("#name").val("");
 			$("#inputEmail").val("");
 			$("#textArea").val("");
