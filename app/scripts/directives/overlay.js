@@ -9,11 +9,7 @@ app.directive('overlay', function() {
     
     link: function(scope, element, attrs, ngAnimate) {
       scope.showOverlay = function() {
-       element.addClass('overlayPic');
-
-  
-
-
+        element.addClass('overlayPic');
       };
       scope.hideOverlay = function(){
         element.removeClass("overlayPic")
