@@ -1,47 +1,43 @@
-
-
 <div ng-controller="PortfolioCtrl">
-	<div id="portpage">
-		<div class="container">
-			<h1 class="title center test"> Featured Apps</h1>
-	<!-- 		<a ng-href="#featured" class="center"> Featured Apps | Additional Apps</a> -->
-			<div class="row">
-				<div ng-repeat="product in apps">
-					<div class="col-sm-12 center new-font">
-						<br>
-						<h1> {{ product.project }} </h1>
-						<h5> {{ product.tech }} </h5>
-						<h5> {{ product.addtl}} </h5>
-						<div id="featured"></div>
-						<overlay></overlay>
-						<img class="picture" ng-src="{{product.image}}">
-						<br><br>
-					</div>
-				</div>
-			</div>
-		</div>
-		<br><br>
+    <div id="portpage">
+        <div class="container">
+            <h1 class="title center test"> Featured Apps</h1>
+    <!--        <a ng-href="#featured" class="center"> Featured Apps | Additional Apps</a> -->
+            <div class="row">
+                <div ng-repeat="product in apps">
+                    <div class="col-sm-12 center new-font">
+                        <br>
+                        <h1> {{ product.project }} </h1>
+                        <h5> {{ product.tech }} </h5>
+                        <h5> {{ product.addtl}} </h5>
+                        <div id="featured"></div>
+                        <overlay></overlay>
+                        <img class="picture" ng-src="{{product.image}}">
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
 
-	<div class="wrapper2">
-		<h1 class="title center"> Additional Apps</h1>
-		<br><br><br>
+    <div class="wrapper2">
+        <h1 class="title center"> Additional Apps</h1>
+        <br><br><br>
 
-		<div class="row">
-		<div ng-repeat="product in extra">
-  				<div class="col-lg-4 col-sm-6">
-
-    				<div class="thumbnail center">
-	      				<img class="sm-picture" ng-src="{{product.image}}">
-	      				<div class="caption">
-	        				<h3 class="color-white new-font"> {{ product.project }}</h3>
-	        				<p class="color-white new-font"> {{ product.tech }}</p>
-	        				<p><a href="{{product.linksite}}" class="btn" id="portBtn" role="button">Website</a> <a href="{{product.github}}" id="portBtn" class="btn" role="button">GitHub</a></p>
-      					</div>
-    				</div>
-  				</div>
-			</div>
-		</div>
-	</div>
+        <div class="row">
+            <div ng-repeat="product in extra">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail center">
+                        <img class="sm-picture" ng-src="{{product.image}}">
+                        <div class="caption">
+                            <h3 class="color-white new-font"> {{ product.project }}</h3>
+                            <p class="color-white new-font"> {{ product.tech }}</p>
+                            <p><a href="{{product.linksite}}" class="btn" id="portBtn" role="button">Website</a> <a href="{{product.github}}" id="portBtn" class="btn" role="button">GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-</div>
