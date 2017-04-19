@@ -402,6 +402,7 @@ article img {
 /* Main marketing message and sign up button */
 .jumbotron {
   background-image: url("../images/o-BIOLUMINESCENT-WAVES-facebook.jpg");
+  background-color: #1e1e1e;
   border-bottom: 1px solid #e5e5e5;
   height: 600px;
   color: white;
