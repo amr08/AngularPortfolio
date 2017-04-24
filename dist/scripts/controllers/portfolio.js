@@ -35,7 +35,6 @@ angular.module('newappApp')
 	  	  	github: "https://github.com/amr08/WWC-Feature",
 	  	  	tech: "Google Places API, JS, HAML, Ruby"
 	  	}
-    	
     ];
 
     $scope.extra = [
@@ -99,5 +98,4 @@ angular.module('newappApp')
 	  	  	tech: "MySQL, Node"
 	  	}
     ];
-
   });
