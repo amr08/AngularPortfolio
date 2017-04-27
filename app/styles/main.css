@@ -100,14 +100,13 @@ a:hover {
   width: 77%;
   position: absolute;
   z-index: 1;
-  background-color: rgba(10,10,10, .6);
+  background-color: rgba(47, 79, 79, .6);
   -webkit-animation: fadein .3s; 
        -moz-animation: fadein .8s; 
         -ms-animation: fadein .8s; 
          -o-animation: fadein .8s;
             animation: fadein .8s;
 }
-
 
 @keyframes fadein {
   from { opacity: 0; }
@@ -139,7 +138,8 @@ a:hover {
 
 .overlayPic a {
   color: white;
-  font-size: 35px;
+  font-size: 50px;
+
 }
 
 .overlayPic .box {
@@ -150,8 +150,8 @@ a:hover {
 .overlayPic a:hover {
   color: #76EEC6;
   text-decoration: none;
+  font-size: 50px;
 /*  padding: 50px;*/
-  font-size: 35px;
 }
 
 .padding {

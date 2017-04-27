@@ -2,6 +2,8 @@
 /.tmp
 /.sass-cache
 .env
+/bower_components
+
 
 /app/scripts/firebase.js
 dist/scripts/firebase.js
