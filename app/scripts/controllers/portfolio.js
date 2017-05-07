@@ -41,7 +41,7 @@ angular.module('newappApp')
        	{ 
        		project: "Giphy Standup",
 	  	  	image: "../../images/stand-up-comedy.jpg",
-	  	  	linksite: "http://arportfolio.herokuapp.com/GiphyApp/index.html",
+	  	  	linksite: "https://giphycomedy.herokuapp.com/",
 	  	  	github: "https://github.com/amr08/GiphyAPIapp",
 	  	  	tech: "AJAX, JSON"
 	  	}, {
