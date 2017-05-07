@@ -80,7 +80,7 @@ angular.module('newappApp')
 	  	}, {
 	  	  	project: "T-Train",
 	  	  	image: "../../images/subway-spider.png",
-	  	  	linksite: "http://arportfolio.herokuapp.com/TrainTime/index.html",
+	  	  	linksite: "https://tschedule.herokuapp.com/",
 	  	  	github: "https://github.com/amr08/TrainTime",
 	  	  	tech: "Firebase, JavaScript, Moment.js"
 	  	},
