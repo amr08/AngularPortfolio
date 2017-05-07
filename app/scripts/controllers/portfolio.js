@@ -84,14 +84,13 @@ angular.module('newappApp')
 	  	  	github: "https://github.com/amr08/TrainTime",
 	  	  	tech: "Firebase, JavaScript, Moment.js"
 	  	},
-	  	
-	  	// 	project: "Mock Portfolio",
-	  	//   	image: "../../images/mock.png",
-	  	//   	linksite: "http://arportfolio.herokuapp.com/basicportfolio/index.html",
-	  	//   	github: "https://github.com/amr08/Basic-Portfolio",
-	  	//   	tech: "HTML5/CSS3"
-	  	// }, {
 	  	{
+	  		project: "Mock Portfolio",
+	  	  	image: "../../images/mock.png",
+	  	  	linksite: "https://amrportfolio.herokuapp.com/",
+	  	  	github: "https://github.com/amr08/Basic-Portfolio",
+	  	  	tech: "HTML5/CSS3"
+	  	}, {
 	  	  	project: "BamazonDB",
 	  	  	image: "https://raw.githubusercontent.com/amr08/BamazonDB/master/managervid.png?token=AQcMnD7q04MR-MXDb5rFa5YYA5sNh333ks5YAZZ3wA%3D%3D",
 	  	  	linksite: "https://github.com/amr08/BamazonDB/blob/master/README.md",
