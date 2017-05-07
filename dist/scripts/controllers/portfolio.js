@@ -47,7 +47,7 @@ angular.module('newappApp')
 	  	}, {
 	  	  	project: "Real News Scraper",
 	      	image: "http://www.theimaginativeconservative.org/wp-content/uploads/2016/05/roman-battle.jpg",
-	      	linksite: "https://newssearch.herokuapp.com/articles",
+	      	linksite: "https://newssearch.herokuapp.com/",
 	      	github: "https://github.com/amr08/NewsSource",
 	      	tech: "MongoDB, Cheerios, Node, Express"
 	  	},  { 
