@@ -466,7 +466,7 @@ article img {
     .overlayPic {
       height: 63%;
       width: 76%;
-      left: 60px;
+      left: 70px;
       position: absolute;
       z-index: 1;
       background-color: rgba(102, 102, 102, .8);
