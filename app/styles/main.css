@@ -475,11 +475,12 @@ article img {
 
     .overlayPic a {
       color: white;
-      font-size: 25px;
+      font-size: 45px;
+      margin-right: 20px;
     }
 
     .overlayPic a:hover {
-      font-size: 25px;
+      font-size: 45px;
     }
   }
 
