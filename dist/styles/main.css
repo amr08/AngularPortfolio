@@ -99,6 +99,7 @@ a:hover {
   height: 72%;
   width: 77%;
   position: absolute;
+  left: 82px;
   z-index: 1;
   background-color: rgba(102, 102, 102, .8);
   -webkit-animation: fadein .3s; 
@@ -465,9 +466,10 @@ article img {
     .overlayPic {
       height: 69%;
       width: 77%;
+      left: 70px;
       position: absolute;
       z-index: 1;
-      background-color: rgba(10,10,10, .6);
+      background-color: rgba(102, 102, 102, .8);
 
     }
 
@@ -486,8 +488,9 @@ article img {
       height: 62%;
       width: 75%;
       position: absolute;
+      left: 57px;
       z-index: 1;
-      background-color: rgba(10,10,10, .6);
+      background-color: rgba(102, 102, 102, .8);
     }
 
     .overlayPic a {
@@ -505,5 +508,6 @@ article img {
     }
 
 }
+
 
 
