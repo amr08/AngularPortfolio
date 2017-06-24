@@ -25,7 +25,7 @@ angular.module('newappApp')
 	  	}, {
 	  	  	project: "The Mentor Project",
 	  	  	image: "../../images/mentor.png",
-	  	  	linksite: "https://mentorproject.herokuapp.com/",
+	  	  	linksite: "http://mentorproject.herokuapp.com/",
 	  	  	github: "https://github.com/amr08/MentorProject",
 	  	  	tech: "JS, jQuery, Firebase, SemanticUI"
 	  	}, {
